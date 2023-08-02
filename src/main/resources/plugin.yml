@@ -1,0 +1,10 @@
+name: EnderCubeCMW
+version: '${project.version}'
+main: fr.sunshinedev.endercubecmw.EnderCubeCMW
+api-version: '1.20'
+depend: [WorldGuard]
+commands:
+  cmw:
+    usage: /cmw
+    description: CMW Command
+    permission: cmw.command.general
